@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- @format -->
 
-## Getting Started
+# Matrix Developer Portfolio
 
-First, run the development server:
+A cyberpunk developer portfolio website deeply inspired by The Matrix, featuring a dark, terminal-like interface with distinctive green-on-black aesthetics. This project combines modern web technologies with classic sci-fi aesthetics to create an immersive and memorable user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Matrix-style digital rain animation
+- Terminal-inspired command interface
+- Dark mode by default with Matrix color scheme
+- Interactive code snippets and demonstrations
+- Project showcase with detailed case studies
+- Professional background/experience section
+- Secure contact system
+- Tech blog integration (Phase 2)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js 15](https://nextjs.org/) - React Framework
+- [React 19](https://react.dev/) - UI Library
+- [TypeScript](https://www.typescriptlang.org/) - Type Safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [shadcn/ui](https://ui.shadcn.com/) - UI Components
+- [Kinde Auth](https://kinde.com/) - Authentication
+- [Neon](https://neon.tech/) - PostgreSQL Database
+- [Drizzle ORM](https://orm.drizzle.team/) - Database ORM
+- [Zod](https://zod.dev/) - Schema Validation
+- [React Hook Form](https://react-hook-form.com/) - Form Management
+- [TanStack Table](https://tanstack.com/table/latest) - Data Tables
+- [next-safe-action](https://next-safe-action.dev/) - Type-safe Actions
+- [Sentry](https://sentry.io/) - Error Tracking
 
-## Learn More
+## 🎮 Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+[Visit the Matrix](https://heath-babb.tech) (Coming Soon)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💻 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
 
-## Deploy on Vercel
+- Node.js 18.17 or later
+- pnpm 8.0 or later
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Take the red pill (clone the repository)
+
+   ```bash
+   git clone https://github.com/hbabb/matrix-portfolio.git
+   ```
+
+2. Install the constructs (dependencies)
+
+   ```bash
+   pnpm install
+   ```
+
+3. Configure the simulation (environment)
+
+   ```bash
+   cp .env.example .env.local
+   ```
+
+4. Initialize the Matrix (development server)
+
+   ```bash
+   pnpm run dev
+   ```
+
+## 🔒 Security
+
+- Kinde Auth for secure authentication
+- CSRF protection
+- Rate limiting
+- Input validation with Zod
+- Secure form submissions with next-safe-action
+
+## 📊 Monitoring
+
+- Sentry for error tracking and performance
+- Vercel Analytics for user insights
+- Custom event tracking
+
+## 🚀 Deployment
+
+Automated deployment pipeline via Vercel:
+
+- Continuous Integration with GitHub Actions
+- Preview deployments for PRs
+- Automated testing and type checking
+- Production optimization
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 🤝 Contributing
+
+While this is a personal portfolio, suggestions for improvements are welcome:
+
+1. Report glitches in the Matrix (bugs)
+2. Propose system upgrades (features)
+3. Submit patches (pull requests)
+
+## 📧 Contact
+
+Heath Babb - <info@heath-babb.tech>
+
+Project Link: [matrix-portfolio](https://github.com/hbabb/matrix-portfolio)
+
+---
+
+"Unfortunately, no one can be told what the Matrix is. You have to see it for yourself." - Morpheus
