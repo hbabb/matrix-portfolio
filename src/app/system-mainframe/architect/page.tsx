@@ -1,5 +1,5 @@
 
-export default function SystematicBioAnalysis() {
+export default function ArchitectProfile() {
   return (
     <main className="mx-auto my-16 flex max-w-7xl flex-col items-center justify-center text-white font-shareTech text-base text-justify">
       <div className="mx-auto flex w-4/5! max-w-6xl flex-col gap-6 rounded-xl border-2 border-matrix-neonGreen bg-matrix-black p-6">
