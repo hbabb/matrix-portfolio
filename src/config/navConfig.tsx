@@ -7,6 +7,12 @@ interface NavItem {
     icon: ReactNode;
 }
 
+interface SecondaryNavItem {
+    path: string;
+    label: string;
+    icon: ReactNode;
+}
+
 interface ArchiveItem {
     path: string;
     label: string;
@@ -18,6 +24,10 @@ export const mainNavItems: NavItem[] = [
         label: 'ARCHITECT PROFILE',
         icon: <User className='h-4 w-4 text-matrix-neonGreen' />,
     },
+    
+];
+
+export const secondaryNavItems: SecondaryNavItem[] = [
     {
         path: '/system-mainframe/blueprints',
         label: 'BLUEPRINTS',

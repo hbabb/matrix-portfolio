@@ -10,8 +10,8 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from '@/components/ui/navigation-menu'
-import { useNavStore } from '@/stores/navStore'
-import { mainNavItems, archiveItems } from '@/config/navConfig'
+// import { useNavStore } from '@/stores/navStore'
+import { mainNavItems, secondaryNavItems, archiveItems } from '@/config/navConfig'
 
 export function MatrixHeader() {
   const pathname = usePathname();
@@ -35,6 +35,22 @@ export function MatrixHeader() {
 
           {/* Navigation */}
           <nav className='flex items-center space-x-6'>
+
+            {/* Regular Nav Items */}
+            {mainNavItems.map((item) => (
+              <Link
+                key={item.path}
+                href={item.path}
+                className={`group flex items-center space-x-1 font-shareTech text-sm ${
+                  pathname === item.path
+                    ? 'text-matrix-neonGreen'
+                    : 'text-matrix-medGreen hover:text-matrix-neonGreen'
+                } transition-colors duration-200`}
+              >
+                {item.icon}
+                <span>{item.label}</span>
+              </Link>
+            ))}
             
             {/* Archives Dropdown */}
             <NavigationMenu>
@@ -80,7 +96,7 @@ export function MatrixHeader() {
             </NavigationMenu>
 
             {/* Regular Nav Items */}
-            {mainNavItems.map((item) => (
+            {secondaryNavItems.map((item) => (
               <Link
                 key={item.path}
                 href={item.path}
