@@ -1,11 +1,11 @@
 import { create } from 'zustand';
 
 interface UIStore {
-    showCommands: boolean;
-    toggleCommands: () => void;
+  showCommands: boolean;
+  toggleCommands: () => void;
 }
 
 export const useUIStore = create<UIStore>((set) => ({
-    showCommands: false,
-    toggleCommands: () => set((state) => ({ showCommands: !state.showCommands})),
-}))
+  showCommands: false,
+  toggleCommands: () => set((state) => ({ showCommands: !state.showCommands })),
+}));

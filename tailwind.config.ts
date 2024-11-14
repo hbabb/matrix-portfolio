@@ -110,30 +110,25 @@ export default {
         },
         'matrix-glow': {
           '0%': {
-            boxShadow:
-              '0 2px 4px rgba(255,0,0,0.2), 0 0 10px rgba(255,0,0,0.2), inset 0 1px 1px rgba(255,255,255,0.2)',
+            boxShadow: '0 2px 4px rgba(255,0,0,0.2), 0 0 10px rgba(255,0,0,0.2), inset 0 1px 1px rgba(255,255,255,0.2)',
           },
           '50%': {
-            boxShadow:
-              '0 2px 8px rgba(255,0,0,0.3), 0 0 20px rgba(255,0,0,0.3), inset 0 1px 1px rgba(255,255,255,0.3)',
+            boxShadow: '0 2px 8px rgba(255,0,0,0.3), 0 0 20px rgba(255,0,0,0.3), inset 0 1px 1px rgba(255,255,255,0.3)',
           },
           '100%': {
-            boxShadow:
-              '0 2px 4px rgba(255,0,0,0.2), 0 0 10px rgba(255,0,0,0.2), inset 0 1px 1px rgba(255,255,255,0.2)',
+            boxShadow: '0 2px 4px rgba(255,0,0,0.2), 0 0 10px rgba(255,0,0,0.2), inset 0 1px 1px rgba(255,255,255,0.2)',
           },
         },
         'matrix-glow-intense': {
           '0%': {
-            boxShadow:
-              '0 2px 8px rgba(255,0,0,0.3), 0 0 20px rgba(255,0,0,0.3), inset 0 1px 1px rgba(255,255,255,0.3)',
+            boxShadow: '0 2px 8px rgba(255,0,0,0.3), 0 0 20px rgba(255,0,0,0.3), inset 0 1px 1px rgba(255,255,255,0.3)',
           },
           '50%': {
             boxShadow:
               '0 4px 12px rgba(255,0,0,0.4), 0 0 30px rgba(255,0,0,0.4), inset 0 1px 1px rgba(255,255,255,0.4)',
           },
           '100%': {
-            boxShadow:
-              '0 2px 8px rgba(255,0,0,0.3), 0 0 20px rgba(255,0,0,0.3), inset 0 1px 1px rgba(255,255,255,0.3)',
+            boxShadow: '0 2px 8px rgba(255,0,0,0.3), 0 0 20px rgba(255,0,0,0.3), inset 0 1px 1px rgba(255,255,255,0.3)',
           },
         },
       },
