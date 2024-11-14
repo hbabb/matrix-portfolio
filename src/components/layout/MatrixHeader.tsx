@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/Link';
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Terminal, FileCode2 } from 'lucide-react';
 import {
