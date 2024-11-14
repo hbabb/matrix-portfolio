@@ -35,9 +35,7 @@ export const MatrixRain = ({ className = '' }: MatrixRainProps) => {
     // Set the canvas dimensions to match the window size
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    console.log(
-      `MatrixRain: Set canvas dimensions to ${canvas.width}x${canvas.height}`,
-    );
+    console.log(`MatrixRain: Set canvas dimensions to ${canvas.width}x${canvas.height}`);
 
     // Define the characters to use in the matrix rain
     const katakana =
@@ -50,9 +48,7 @@ export const MatrixRain = ({ className = '' }: MatrixRainProps) => {
     // Set the font size and calculate the number of columns
     const fontSize = 16;
     const columns = Math.floor(canvas.width / 10); // Each character occupies 10 pixels
-    console.log(
-      `MatrixRain: Set font size to ${fontSize}px and columns to ${columns}`,
-    );
+    console.log(`MatrixRain: Set font size to ${fontSize}px and columns to ${columns}`);
 
     // Initialize the drop positions for each column
     const drops: number[] = [];
@@ -104,9 +100,7 @@ export const MatrixRain = ({ className = '' }: MatrixRainProps) => {
       for (let x = 0; x < Math.floor(canvas.width / 10); x++) {
         drops[x] = Math.floor(Math.random() * canvas.height);
       }
-      console.log(
-        `MatrixRain: Resized canvas to ${canvas.width}x${canvas.height}`,
-      );
+      console.log(`MatrixRain: Resized canvas to ${canvas.width}x${canvas.height}`);
     };
 
     // Add an event listener for window resize

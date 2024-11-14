@@ -1,10 +1,5 @@
 import type { Metadata } from 'next';
-import {
-  Anonymous_Pro,
-  Roboto_Mono,
-  Share_Tech_Mono,
-  Fira_Code,
-} from 'next/font/google';
+import { Anonymous_Pro, Roboto_Mono, Share_Tech_Mono, Fira_Code } from 'next/font/google';
 import { MatrixRain } from '@/components/animations/MatrixRain';
 // import { MatrixHeader } from "@/components/layout/MatrixHeader";
 import './globals.css';
