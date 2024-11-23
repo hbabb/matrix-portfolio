@@ -5,7 +5,11 @@ interface RateLimitRecord {
 
 const ratelimitMap = new Map<string, RateLimitRecord>();
 
-export function rateLimit(ip: string, limit: number, timeWindowInMs: number = 60000) {
+export function rateLimit(
+  ip: string,
+  limit: number,
+  timeWindowInMs: number = 60000,
+) {
   const now = Date.now();
   const record = ratelimitMap.get(ip);
 

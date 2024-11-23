@@ -1,6 +1,6 @@
-import { MatrixHeader } from '@/components/layout/MatrixHeader';
-import { MatrixFooter } from '@/components/layout/MatrixFooter';
-import { Toaster } from 'sonner';
+import { MatrixHeader } from "@/components/layout/MatrixHeader";
+import { MatrixFooter } from "@/components/layout/MatrixFooter";
+import { Toaster } from "sonner";
 
 export default function SystemMainframeLayout({
   children,

@@ -1,6 +1,6 @@
-import { RedPillLink } from '../ui/PillLink';
-import { Linkedin, Github } from 'lucide-react';
-import Link from 'next/link';
+import { RedPillLink } from "../ui/PillLink";
+import { Linkedin, Github } from "lucide-react";
+import Link from "next/link";
 
 export function MatrixFooter() {
   return (
@@ -13,9 +13,12 @@ export function MatrixFooter() {
           </RedPillLink>
           <div className="ml-16 flex w-full flex-row items-center justify-between">
             <p className="text-matrix-neonGreen">
-              &copy; {new Date().getFullYear()} Heath Babb - All rights reserved.
+              &copy; {new Date().getFullYear()} Heath Babb - All rights
+              reserved.
               <br />
-              <em className="font-roboto font-bold text-matrix-redPillDark">Site is Under Construction</em>
+              <em className="font-roboto font-bold text-matrix-redPillDark">
+                Site is Under Construction
+              </em>
             </p>
             <div className="flex flex-row items-center justify-between space-x-10">
               <Link

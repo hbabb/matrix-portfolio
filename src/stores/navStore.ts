@@ -1,4 +1,4 @@
-import { create } from 'zustand';
+import { create } from "zustand";
 
 interface NavState {
   isMobileMenuOpen: boolean;
@@ -7,5 +7,6 @@ interface NavState {
 
 export const useNavStore = create<NavState>((set) => ({
   isMobileMenuOpen: false,
-  toggleMobileMenu: () => set((state) => ({ isMobileMenuOpen: !state.isMobileMenuOpen })),
+  toggleMobileMenu: () =>
+    set((state) => ({ isMobileMenuOpen: !state.isMobileMenuOpen })),
 }));
